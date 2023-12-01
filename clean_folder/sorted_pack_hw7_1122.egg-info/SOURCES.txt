@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+clean_folder/__init__.py
+clean_folder/clean.py
+sorted_pack_hw7_1122.egg-info/PKG-INFO
+sorted_pack_hw7_1122.egg-info/SOURCES.txt
+sorted_pack_hw7_1122.egg-info/dependency_links.txt
+sorted_pack_hw7_1122.egg-info/entry_points.txt
+sorted_pack_hw7_1122.egg-info/top_level.txt
