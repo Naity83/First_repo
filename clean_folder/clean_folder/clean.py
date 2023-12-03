@@ -126,18 +126,15 @@ def archive_folder(folder_path):
      return None
 
 
-if __name__ == '__main__':
-
-     def clean():
+def clean():
           sort_folder = sys.argv[1]
           sort_folder = Path(sys.argv[1])    
           create(sort_folder)
           main_sorted_folder(sort_folder)
           clear(sort_folder)
           archive_folder(sort_folder)
-     
 
-
+if __name__ == '__main__':
      known_ext = list(set(known_ext))
      print(f'Відомі розширення файлів: {known_ext}')
      unknown_ext = list(set(unknown_ext))     
@@ -152,3 +149,5 @@ if __name__ == '__main__':
      print(f'Список файлів у категорії "відео": {video_files}')
      archive_files = list(set(archive_files))
      print(f'Список файлів у категорії "архіви": {archive_files}')
+
+
